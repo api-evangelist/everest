@@ -1,22 +1,60 @@
 aid: everest
 name: Everest
-description: Everest is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Everest is an early-stage Y Combinator (Fall 2025 / F25) startup based
+  in San Francisco building agent-ready technical support for developer tools. Its
+  premise is that a growing share of a devtool's users will be coding agents rather
+  than humans, and Everest helps devtool companies sell to and support those coding
+  agents with instant technical support. The company was founded in 2026 by co-founders
+  Yolanda Cao and Spencer McKee. As of this profile Everest operates a single marketing
+  landing page (everestagi.com) with no public API, developer documentation, SDKs,
+  or other developer surface yet published; this record is maintained as a lead for
+  the API Evangelist enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/everest/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.everestagi.com/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: F25
+x-yc-url: https://www.ycombinator.com/companies/everest
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Developer Tools
+- Technical Support
+- AI Agents
+- Coding Agents
+- Y Combinator
+- B2B
 apis: []
+common:
+- type: DomainSecurity
+  url: security/everest-domain-security.yml
+- type: Website
+  url: https://www.everestagi.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
